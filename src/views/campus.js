@@ -1,10 +1,9 @@
 import React from "react";
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 
 import {StyleSheet, View, Text, ImageBackground, SafeAreaView, TextInput, TouchableOpacity} from "react-native";
 
-const Campus = () => {
+const Campus = ({ navigation }) => {
     // const navigation = useNavigation();
     return (
         <ImageBackground style={{width: '100%', height: '82%', resizeMode: "cover",}}
